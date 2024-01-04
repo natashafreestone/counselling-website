@@ -1,0 +1,15 @@
+/*-- scss:defaults --*/
+
+@font-face {
+  font-family: 'iAWriterQuattroS-Regular';
+  src: local('iAWriterQuattroS-Regular'), url('fonts/iAWriterQuattroS-Regular.woff2') format('woff2'), url('fonts/iAWriterQuattroS-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'iAWriterQuattroS-Bold';
+  src: local('iAWriterQuattroS-Bold'), url('fonts/iAWriterQuattroS-Bold.woff2') format('woff2'), url('fonts/iAWriterQuattroS-Bold.woff') format('woff');
+}
+
+// fonts
+$font-family-sans-serif: "iAWriterQuattroS-Regular", Helvetica, sans-serif !default;
+$headings-font-family: "iAWriterQuattroS-Bold", Figtree, Helvetica, sans-serif !default;
