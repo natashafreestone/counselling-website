@@ -1,13 +1,20 @@
 project:
   type: website
+  resources: 
+    resources
 
 website:
-  title: "counselling-website"
+  title: "Natasha Freestone"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: background.qmd
+        text: Background
+      - href: resources.qmd
+        text: Resources for Ex-Members
+      - href: contact.qmd
+        text: Contact
 
 format:
   html:

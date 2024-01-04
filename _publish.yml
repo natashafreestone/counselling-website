@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: 022aad0a-f7b9-40fc-b0ae-91928d82eafe
+      url: 'https://grand-froyo-e6c2f2.netlify.app'

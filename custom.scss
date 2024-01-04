@@ -10,6 +10,23 @@
   src: local('iAWriterQuattroS-Bold'), url('fonts/iAWriterQuattroS-Bold.woff2') format('woff2'), url('fonts/iAWriterQuattroS-Bold.woff') format('woff');
 }
 
+@font-face {
+  font-family: 'iAWriterMonoS-Regular';
+  src: local('iAWriterMonooS-Regular'), url('fonts/iAWriterMonoS-Regular.woff2') format('woff2'), url('fonts/iAWriterMonoS-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'iAWriterMonoS-Bold';
+  src: local('iAWriterMonoS-Bold'), url('fonts/iAWriterMonoS-Bold.woff2') format('woff2'), url('fonts/iAWriterMonoS-Bold.woff') format('woff');
+}
+
+// colors
+$primary: #32A27F;
+$body-bg: #FFFFFF;
+$navbar-bg: $body-bg;
+$navbar-fg: $primary;
+
 // fonts
-$font-family-sans-serif: "iAWriterQuattroS-Regular", Helvetica, sans-serif !default;
-$headings-font-family: "iAWriterQuattroS-Bold", Figtree, Helvetica, sans-serif !default;
+$font-family-sans-serif: "iAWriterMonoS-Regular", Helvetica, sans-serif !default;
+$headings-font-family: "iAWriterMonoS-Bold", Figtree, Helvetica, sans-serif !default;
+
