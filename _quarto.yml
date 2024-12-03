@@ -5,19 +5,21 @@ project:
 
 website:
   title: "Natasha Freestone"
-  navbar:
-    right:
-      - href: index.qmd
-        text: Home
-      - href: background.qmd
-        text: Background
-      - href: resources.qmd
-        text: Resources for Ex-Members
+  drafts: 
+    - background.qmd
+    - resources.qmd
+  # navbar:
+  #   right:
+  #     - href: index.qmd
+  #       text: Home
+  #     - href: background.qmd
+  #       text: Background
+  #     - href: resources.qmd
+  #       text: Resources for Ex-Members
 
 format:
   html:
     theme: [cosmo, custom.scss]
-    css: styles.css
     toc: true
 
 editor: visual

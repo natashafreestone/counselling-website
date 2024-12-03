@@ -1,5 +1,7 @@
 /*-- scss:defaults --*/
 
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+
 @font-face {
   font-family: 'iAWriterQuattroS-Regular';
   src: local('iAWriterQuattroS-Regular'), url('fonts/iAWriterQuattroS-Regular.woff2') format('woff2'), url('fonts/iAWriterQuattroS-Regular.woff') format('woff');
@@ -27,6 +29,12 @@ $navbar-bg: $body-bg;
 $navbar-fg: $primary;
 
 // fonts
-$font-family-sans-serif: "iAWriterMonoS-Regular", Helvetica, sans-serif !default;
-$headings-font-family: "iAWriterMonoS-Bold", Figtree, Helvetica, sans-serif !default;
+$font-family-sans-serif: Parkinsans, "iAWriterMonoS-Regular", Helvetica, sans-serif !default;
+$headings-font-family: Parkinsans, "iAWriterMonoS-Bold", Figtree, Helvetica, sans-serif !default;
 
+.construction {
+  color: #FF5733;
+  font-size: 200%;
+  font-face: bold;
+  text-align: center;
+}
